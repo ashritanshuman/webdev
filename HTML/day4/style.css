@@ -1,0 +1,23 @@
+.sc{
+
+    font-size: 20px;
+    color: rgb(211, 7, 181);
+    
+}
+
+#st{
+    font-size: 20px;
+    color: rgb(118, 21, 21);
+    background-color: lightblue;
+    border-radius: 2px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;   
+    border: 2px solid rgb(230, 0, 0); 
+
+}
+
+
+body{
+    background-color: rgb(179, 179, 179);
+}
