@@ -5,7 +5,7 @@ This repository marks the beginning of my journey into **Web Development**. Here
 
 ## About Me🥱
 
-I'm ASHRIT a CS Engineering student at ITM Univ. Gwalior.... just starting out with web development and excited to learn the basics—from HTML and CSS to JavaScript and beyond technologies such as advanced frontend and also backend. I love to document my learning path, share what I build, and hopefully help others who are also new to web development.
+I'm ASHRIT a CS Engineering student at ITM University. Gwalior.... just starting out with web development and excited to learn the basics—from HTML and CSS to JavaScript and beyond technologies such as advanced frontend and also backend. I love to document my learning path, share what I build, and hopefully help others who are also new to web development.
 
 ## What You'll Find Here🥱
 
