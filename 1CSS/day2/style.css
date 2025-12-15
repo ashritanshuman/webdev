@@ -1,0 +1,20 @@
+h1{
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+
+    /* border-radius: 3px;
+    border-width: 4px;
+    border-style: solid; */
+
+    border: 5px solid brown;
+    padding: 10px;
+    margin: 10px;
+}
+
+h2{
+    background-color: pink;
+    border: 2px solid brown;
+
+
+}
