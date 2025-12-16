@@ -18,3 +18,7 @@ h2{
 
 
 }
+
+/* Selection color */
+::selection { background: #1e90ff; color: #ffffff; }
+::-moz-selection { background: #1e90ff; color: #ffffff; }
