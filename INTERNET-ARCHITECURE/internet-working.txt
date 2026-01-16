@@ -1,0 +1,347 @@
+# 1. What Is the Internet?
+
+The **Internet** is a **global network of interconnected computer networks** that communicate using standardized protocols, primarily **TCP/IP**.
+
+* It is **not** a single entity or server
+* It is a **network of networks**
+* Anyone can connect if they follow the Internet standards
+
+**Key idea:**
+
+> The Internet is infrastructure.
+> The Web is a service built on top of the Internet.
+
+---
+
+# 2. Internet vs World Wide Web (WWW)
+
+| Internet                   | World Wide Web               |
+| -------------------------- | ---------------------------- |
+| Physical + logical network | Application/service          |
+| Uses TCP/IP                | Uses HTTP/HTTPS              |
+| Exists since 1960s–70s     | Created in 1989              |
+| Supports email, FTP, VoIP  | Supports websites & web apps |
+
+**Other Internet services:**
+
+* Email (SMTP, POP3, IMAP)
+* File Transfer (FTP, SFTP)
+* Messaging
+* Video conferencing
+* Cloud services
+
+---
+
+# 3. Brief History of the Internet
+
+## 3.1 ARPANET (1960s)
+
+* Created by **US Department of Defense**
+* Goal: **Communication even if part of network fails**
+* Used **packet switching** instead of circuit switching
+
+## 3.2 TCP/IP Adoption (1983)
+
+* TCP/IP became the standard
+* Enabled different networks to interconnect
+* Birth of the modern Internet
+
+## 3.3 World Wide Web (1989)
+
+* Invented by **Tim Berners-Lee**
+* Introduced:
+
+  * HTML
+  * HTTP
+  * URL
+  * Web browsers
+
+## 3.4 Commercial Internet (1990s)
+
+* ISPs emerged
+* Websites became public
+* E-commerce started
+
+## 3.5 Web Evolution
+
+| Era     | Name                     | Description                |
+| ------- | ------------------------ | -------------------------- |
+| Web 1.0 | Static Web               | Read-only pages            |
+| Web 2.0 | Interactive Web          | Social media, user content |
+| Web 3.0 | Semantic / Decentralized | AI, blockchain             |
+| Web 4.0 | Intelligent Web          | AI-driven experiences      |
+
+---
+
+# 4. How the Internet Works (Step-by-Step)
+
+### Example: You type `www.google.com`
+
+---
+
+## Step 1: URL Breakdown
+
+```
+https://www.google.com/search?q=web
+```
+
+| Part                                    | Meaning      |
+| --------------------------------------- | ------------ |
+| https                                   | Protocol     |
+| [www.google.com](http://www.google.com) | Domain name  |
+| /search                                 | Path         |
+| ?q=web                                  | Query string |
+
+---
+
+## Step 2: DNS Resolution (Domain → IP)
+
+Computers communicate using **IP addresses**, not domain names.
+
+**DNS process:**
+
+1. Browser checks cache
+2. OS checks cache
+3. Router checks cache
+4. ISP DNS server
+5. Root DNS → TLD DNS → Authoritative DNS
+
+**Result:**
+
+```
+www.google.com → 142.250.xxx.xxx
+```
+
+---
+
+## Step 3: TCP Connection (3-Way Handshake)
+
+1. Client → SYN
+2. Server → SYN-ACK
+3. Client → ACK
+
+Connection established.
+
+---
+
+## Step 4: HTTPS Security (TLS Handshake)
+
+* Server sends SSL certificate
+* Browser verifies certificate
+* Encryption keys exchanged
+* Secure communication starts
+
+---
+
+## Step 5: HTTP Request & Response
+
+### Request:
+
+```
+GET / HTTP/1.1
+Host: www.google.com
+```
+
+### Response:
+
+```
+200 OK
+Content-Type: text/html
+```
+
+HTML is sent back.
+
+---
+
+## Step 6: Browser Rendering
+
+Browser parses:
+
+1. HTML → DOM
+2. CSS → CSSOM
+3. JS → Execution
+4. Layout
+5. Paint
+6. Composite
+
+---
+
+# 5. Internet Architecture
+
+## 5.1 Client–Server Model
+
+* Client: Browser, mobile app
+* Server: Hosts resources
+* Stateless communication (HTTP)
+
+---
+
+## 5.2 Peer-to-Peer (P2P)
+
+* No central server
+* Examples:
+
+  * BitTorrent
+  * Blockchain
+  * WebRTC
+
+---
+
+# 6. Core Internet Protocols
+
+## 6.1 TCP/IP Model
+
+| Layer          | Purpose         |
+| -------------- | --------------- |
+| Application    | HTTP, FTP, SMTP |
+| Transport      | TCP, UDP        |
+| Internet       | IP, ICMP        |
+| Network Access | Ethernet, Wi-Fi |
+
+---
+
+## 6.2 Important Protocols
+
+| Protocol   | Use                       |
+| ---------- | ------------------------- |
+| HTTP/HTTPS | Web communication         |
+| TCP        | Reliable data transfer    |
+| UDP        | Fast, unreliable transfer |
+| DNS        | Name resolution           |
+| FTP        | File transfer             |
+| SMTP       | Sending email             |
+| IMAP/POP3  | Receiving email           |
+| ICMP       | Error reporting           |
+
+---
+
+# 7. IP Addressing
+
+## 7.1 IPv4 vs IPv6
+
+| IPv4                 | IPv6                |
+| -------------------- | ------------------- |
+| 32-bit               | 128-bit             |
+| Limited              | Huge address space  |
+| Example: 192.168.1.1 | Example: 2001:db8:: |
+
+---
+
+## 7.2 Public vs Private IP
+
+| Type    | Example     |
+| ------- | ----------- |
+| Public  | 8.8.8.8     |
+| Private | 192.168.x.x |
+
+---
+
+# 8. Web Servers & Hosting
+
+## Common Web Servers
+
+* Apache
+* Nginx
+* IIS
+
+## Hosting Types
+
+* Shared hosting
+* VPS
+* Dedicated
+* Cloud (AWS, Azure, GCP)
+
+---
+
+# 9. Frontend vs Backend
+
+## Frontend
+
+* HTML
+* CSS
+* JavaScript
+* Runs in browser
+
+## Backend
+
+* Node.js, Python, Java
+* Databases
+* Business logic
+
+---
+
+# 10. Databases & Storage
+
+## Types
+
+* SQL (MySQL, PostgreSQL)
+* NoSQL (MongoDB, Redis)
+
+---
+
+# 11. APIs & Web Services
+
+* REST
+* GraphQL
+* SOAP
+
+**JSON** is the most common data format.
+
+---
+
+# 12. Cookies, Sessions & Storage
+
+| Mechanism      | Purpose         |
+| -------------- | --------------- |
+| Cookies        | Authentication  |
+| Session        | User state      |
+| LocalStorage   | Persistent data |
+| SessionStorage | Temporary data  |
+
+---
+
+# 13. Security Concepts
+
+* HTTPS
+* CORS
+* CSRF
+* XSS
+* Authentication vs Authorization
+* OAuth, JWT
+
+---
+
+# 14. Performance & Optimization
+
+* CDN
+* Caching
+* Minification
+* Compression (Gzip, Brotli)
+* Lazy loading
+
+---
+
+# 15. Modern Web Concepts
+
+* SPA (Single Page Apps)
+* SSR vs CSR
+* PWA
+* WebSockets
+* Serverless
+* Microservices
+
+---
+
+# 16. How All This Fits for a Beginner
+
+**Learning order recommended for you:**
+
+1. How Internet works (this)
+2. HTML fundamentals
+3. CSS layout & responsiveness
+4. JavaScript basics
+5. HTTP & APIs
+6. Backend basics
+7. Databases
+8. Deployment
+.
