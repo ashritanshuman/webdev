@@ -35,53 +35,6 @@ This repo is primarily for **learning, practice, and experimentation**. Over tim
 
 ---
 
-## 📂 Repository Structure (Planned)
-
-```
-web-dev-learning/
-│
-├── html/
-│   ├── basics/
-│   └── forms/
-│
-├── css/
-│   ├── selectors/
-│   ├── flexbox/
-│   └── grid/
-│
-├── javascript/
-│   ├── fundamentals/
-│   └── dom-manipulation/
-│
-├── projects/
-│   ├── portfolio-website/
-│   └── mini-projects/
-│
-└── README.md
-```
-
----
-
-## 🚀 Learning Roadmap
-
-* [x] Understand how the web works
-* [x] Learn basic HTML tags and structure
-* [ ] Master CSS layouts (Flexbox & Grid)
-* [ ] Learn JavaScript fundamentals
-* [ ] Build responsive websites
-* [ ] Create small real-world projects
-* [ ] Deploy websites
-
----
-
-## 🧪 Projects (Upcoming)
-
-* Personal Portfolio Website
-* Landing Page Clone
-* Simple Calculator
-* To-Do List App
-
----
 
 ## 📖 Resources I Use
 
