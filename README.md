@@ -50,19 +50,6 @@ This repo is primarily for **learning, practice, and experimentation**. Over tim
 I will update this repository regularly as I learn new concepts and build projects.
 
 Consistency > Motivation.
-
----
-
-## 🤝 Contribution
-
-This is a personal learning repository. Suggestions and feedback are always welcome.
-
----
-
-## 📄 License
-
-This repository is for educational purposes.
-
 ---
 
 **Author:** Ashrit
