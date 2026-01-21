@@ -1,4 +1,4 @@
-# 🌐 Web Development Learning Repository
+# 🌐 Web Development Learning Repo
 
 Welcome to my **Web Development Learning Repository**. This repository documents my structured journey of learning modern web development from the fundamentals to more advanced concepts.
 
