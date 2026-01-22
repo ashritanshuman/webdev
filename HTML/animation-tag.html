@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML &lt;marquee&gt; Tag</title>
+    <style>
+      .outlined {
+        border: 2px solid black;
+      }
+      .news {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        margin-top: 20px;
+      }
+      .news a {
+        text-decoration: none;
+        color: #1a0dab;
+      }
+      .news menu {
+        margin-top: 10px;
+      }
+      .news button {
+        margin-right: 10px;
+        padding: 5px 10px;
+        font-size: 14px;
+      }
+      .dsed {
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <marquee>This text will scroll from right to left</marquee>
+
+<marquee direction="up">This text will scroll from bottom to top</marquee>
+
+<marquee
+  direction="down"
+  width="250"
+  height="200"
+  behavior="alternate"
+  class="outlined">
+  <marquee behavior="alternate">This text will bounce</marquee>
+</marquee>
+
+
+<div class="news">
+  <a href="#">NASA’s Webb Delivers Deepest Infrared Image of Universe Yet</a>
+  <menu>
+    <li><button id="save">Save for later</button></li>
+    <li><button id="share">Share this news</button></li>
+  </menu>
+</div>
+
+<div class="dsed"></div>
+
+
+
+</html>
