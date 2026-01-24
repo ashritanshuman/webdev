@@ -7,39 +7,114 @@
 
     <style>
         /* universal selector */
-        /* *{
+
+        *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-        } */
+        }
 
         /* type selector */
 
         p{
             font-size: small;
-            margin: 40px 10px 19px 70px       
+            /* margin: 40px 10px 19px 70px; */
+            margin-bottom: 20px;
+
+        }
+
+        /* class selector */
+        .list{
+            background-color: lightgray;
+            padding: 20px;
+            width: 200px;
+            
+        }
+
+        /* id selector */
+        #special{
+            background-color: lightblue;
+            padding: 15px;
+            border: 2px solid blue;
+        }
+
+        /* attribute selector */
+        input[type="text"]{
+            padding: 10px;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+        /* descendant selector */
+        article p{
+            font-style: italic;
+            background-color: #1a1a1a;
+            color: white;
+        }
+
+        /* child selector */
+        ul > li{
+            list-style-type: square;
+        }
+
+        div > p{
+            color: rgb(255, 0, 140);
+        }
+
+        /* adjacent sibling selector */
+        h1 + p {
+            font-weight: bold;
+        }
+
+        /* pseudo-class selector */
+        a:hover{
+            background-color: #b62222;
+            color: white;
+
+        }
+
+        /* pseudo-element selector */
+        p::first-letter{
+            font-size: 200%;
+            color: red;
+            font-weight: bold;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        /* grouping selectors */
+        h1, h2, h3{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
     </style>
 </head>
 <body>
-    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ipsam ab nihil voluptates. Ullam minus suscipit delectus quidem tempora architecto, nemo quae, nostrum non sapiente dicta itaque blanditiis possimus mollitia omnis. Accusantium sunt ut ea minus doloremque error, in laudantium labore nisi minima repudiandae ipsam!</p>
-    <input type="text" placeholder="name">
+    <div>
+
+        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ipsam ab nihil voluptates. Ullam minus suscipit delectus quidem tempora architecto, nemo quae, nostrum non sapiente dicta itaque blanditiis possimus mollitia omnis. Accusantium sunt ut ea minus doloremque error, in laudantium labore nisi minima repudiandae ipsam!</p>
+        <input type="text" placeholder="name">
+        
+        <ul class="list">
+            <li>apple</li>
+            <li>ball</li>
+            <li>fruits
+                <ul>
+                    <li>how was that</li>
+                    <li>yeaa</li>
+                </ul>
+            </li>
+            <li></li>
+            <li></li>
+        </ul>
+
+        <a href="youyuyu">tihgihihg</a>
     
-    <ul>
-        <li>apple</li>
-        <li>ball</li>
-        <li>fruits
-            <ul>
-                <li>how was that</li>
-                <li>yeaa</li>
-            </ul>
-        </li>
-        <li></li>
-        <li></li>
-    </ul>
-    <h2>subheading</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque eum delectus architecto animi eaque vero reiciendis eius provident tenetur repudiandae similique totam numquam tempora consequatur, cum tempore quisquam quasi nemo doloremque? Illo, commodi dolorum atque adipisci illum doloribus ut obcaecati ratione perspiciatis porro tenetur optio nobis molestiae quo, voluptatum fuga quasi tempora, quae labore.</p>
-    <a href=""></a>
+        <article>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, non!</p>
+        </article>
+        <h2>subheading</h2>
+        <p id="special">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque eum delectus architecto animi eaque vero reiciendis eius provident tenetur repudiandae similique totam numquam tempora consequatur, cum tempore quisquam quasi nemo doloremque? Illo, commodi dolorum atque adipisci illum doloribus ut obcaecati ratione perspiciatis porro tenetur optio nobis molestiae quo, voluptatum fuga quasi tempora, quae labore.</p>
+        <a href=""></a>
+    </div>
 </body>
 </html>
