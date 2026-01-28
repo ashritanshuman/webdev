@@ -1,0 +1,73 @@
+body , html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    
+}
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: linear-gradient(135deg, #9c9da1, #0d011a);
+}
+
+.container .content{
+    text-align: center;
+    background-color: rgba(245, 227, 227, 0.9);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0;
+    max-width: 400px;
+    width: 100%;
+
+
+}
+
+.logo{
+    width: 150px;
+    /* margin-bottom: 20px; */
+}
+
+h1{
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+input[type="email"]{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+
+}
+
+button{
+    padding: 0.5rem;
+    background-color: #8b7777;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+
+}
+button:hover{
+    background-color: #bdb1b1;
+}
