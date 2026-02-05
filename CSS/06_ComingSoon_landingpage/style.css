@@ -4,7 +4,8 @@ html {
     padding: 0;
     height: 100%;
     font-family: "Arial", sans-serif;
-    background: linear-gradient(135deg, #9c9da1, #0d011a);
+    /* background: linear-gradient(135deg, #9c9da1, #0d011a); */
+    background: linear-gradient(135deg, #aa69a1, #492942);
 }
 
 .container {
