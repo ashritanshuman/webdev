@@ -23,7 +23,7 @@
         }
 
         .nav1 {
-            background-color: #484848;
+            background-color: #547507;
             padding: 10px;
         }
 
@@ -51,7 +51,7 @@
             width: 100px;
         }
 
-        .nav1 a::after {
+        /* .nav1 a::after {
             content: "fh";
             position: absolute;
             height: 2px;
@@ -60,12 +60,12 @@
             left: 0;
             background-color: blue;
             transform: scaleX(0);
-            transform: transform 0.3s ease-in-out;text
-        }
+            transition: transform 0.3s ease-in-out;
+        } */
 
-        .nav1 a:hover::after {
+        /* .nav1 a:hover::after {
             transform: scaleX(1);
-        }
+        } */
 
         .nav2 {
             background-color: grey;
@@ -109,8 +109,9 @@
 
         .nav2 .login-btn:hover {
             background-color: rgb(148, 221, 38);
-            border: 1px solid black;
+            /* border: 1px solid black; */
             color: black;
+            transition: background-color 0.3s ease-in-out;
         }
 
 
