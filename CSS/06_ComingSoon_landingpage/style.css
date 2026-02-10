@@ -25,7 +25,7 @@ html {
     width: 100%;
 }
 
-/* .logo {
+.logo {
     width: 150px;
     margin-bottom: 20px;
 }
@@ -50,21 +50,25 @@ form {
 }
 
 input[type="email"] {
+
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #ffffff;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    
 }
 
 button {
-    padding: 0.5rem;
+    padding: 12px;
+    /* padding: 0.5rem; */
+    width: 100px;
     background-color: #8b7777;
     border: none;
-    border-radius: 10px;
+    border-radius: 7px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 }
 
 button:hover {
     background-color: #bdb1b1;
-} */
+}
