@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rusty Bean Café</title>
+    <style>
+        /* Brown Theme Variables */
+        :root {
+            --bg-cream: #fdfbf7;
+            --text-dark: #3e2723;
+            --brown-primary: #5d4037;
+            --brown-secondary: #8d6e63;
+            --brown-accent: #d7ccc8;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-cream);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        /* Header & Navigation */
+        header {
+            background-color: var(--brown-primary);
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            
+        }
+
+        nav a {
+            color: var(--brown-accent);
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+            transition: color 0.3s;
+            
+        }
+
+        
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: var(--brown-secondary);
+            color: rgb(255, 224, 224);
+            padding: 80px 20px;
+            text-align: center;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold
+        }
+
+        /* .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        } */
+
+        /* Main Content */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        h3 {
+            color: var(--brown-primary);
+            border-bottom: 2px solid var(--brown-secondary);
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+
+        /* Menu List */
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 0;
+            border-bottom: 1px dotted var(--brown-secondary);
+        }
+
+        /* .menu-item:last-child {
+            border-bottom: none;
+        } */
+
+        /* Footer */
+        footer {
+            background-color: var(--brown-primary);
+            color: var(--brown-accent);
+            text-align: center;
+            padding: 20px;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>☕ The Rusty Bean</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Warm Coffee, Cozy Vibes</h2>
+        <p>Experience the finest roast in town.</p>
+    </section>
+
+    <div class="container">
+        <section id="about">
+            <h3>About Us</h3>
+            <p>Welcome to The Rusty Bean. We believe in the simple pleasure of a good cup of coffee. Sourced from sustainable farms and roasted in small batches, our beans bring you the warmth of home in every sip.</p>
+        </section>
+
+        <section id="menu">
+            <h3>Our Menu</h3>
+
+            <div class="menu-item">
+                <span><strong>House Blend Coffee</strong></span>
+                <span>$3.00</span>
+            </div>
+
+            <div class="menu-item">
+                <span><strong>Classic Espresso</strong></span>
+                <span>$2.50</span>
+            </div>
+
+            <div class="menu-item">
+                <span><strong>Caramel Macchiato</strong></span>
+                <span>$4.50</span>
+            </div>
+
+            <div class="menu-item">
+                <span><strong>Hazelnut Latte</strong></span>
+                <span>$4.75</span>
+            </div>
+
+            <div class="menu-item">
+                <span><strong>Chocolate Croissant</strong></span>
+                <span>$3.50</span>
+            </div>
+
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 The Rusty Bean Café. All rights reserved.</p>
+    </footer>
+</body>
+</html>
