@@ -5,7 +5,7 @@ html {
     height: 100%;
     font-family: "Arial", sans-serif;
     /* background: linear-gradient(135deg, #9c9da1, #0d011a); */
-    background: linear-gradient(135deg, #aa69a1, #492942);
+    background: linear-gradient(135deg, #030003, #ac9090);
 }
 
 .container {
@@ -17,7 +17,8 @@ html {
 
 .container .content {
     text-align: center;
-    background-color: rgba(245, 227, 227, 0.9);
+    background-color: rgba(245, 227, 227, 0.199);
+    
     padding: 50px;
     border-radius: 10px;
     box-shadow: 0;
@@ -38,7 +39,7 @@ h1 {
 
 p {
     font-size: 16px;
-    color: #666;
+    color: #000000;
     margin-bottom: 20px;
 }
 
@@ -50,11 +51,11 @@ form {
 }
 
 input[type="email"] {
-
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #ffffff;
     margin-bottom: 20px;
+    margin-top: 10px;
     
 }
 
@@ -62,7 +63,7 @@ button {
     padding: 12px;
     /* padding: 0.5rem; */
     width: 100px;
-    background-color: #8b7777;
+    background-color: #9e67c2f1;
     border: none;
     border-radius: 7px;
     cursor: pointer;

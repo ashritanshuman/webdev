@@ -1,0 +1,16 @@
+h1{
+    background-color: green;
+
+}
+
+.classA{
+    background-color: blue;
+}
+
+#firstID{
+    background-color: pink;
+}
+
+
+
+/* depends on how we ar eoging specific or depth,,    ID HAS THE MOST PRIORITY */
