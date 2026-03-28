@@ -1,13 +1,18 @@
-body,
-html {
+*{
     margin: 0;
     padding: 0;
-    height: 100%;
-    font-family: "Arial", sans-serif;
-    /* background: linear-gradient(135deg, #9c9da1, #0d011a); */
-    background: linear-gradient(135deg, #030003, #ac9090);
+    box-sizing: border-box;
 }
 
+body,
+html {
+    height: 100%;
+    width: 100%;
+    font-family: "Arial", sans-serif;
+}
+
+/* background: linear-gradient(135deg, #9c9da1, #0d011a);
+    background: linear-gradient(135deg, #030003, #ac9090); */
 .container {
     display: flex;
     justify-content: center;
