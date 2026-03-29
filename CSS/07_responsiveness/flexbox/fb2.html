@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox Complete Practice</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+
+        section {
+            margin-bottom: 60px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            border-bottom: 2px solid black;
+            padding-bottom: 5px;
+        }
+
+        .box {
+            background: #4CAF50;
+            color: white;
+            padding: 20px;
+            margin: 5px;
+            text-align: center;
+        }
+
+        .small {
+            width: 80px;
+        }
+
+        /* 1 basic flex */
+        .flex {
+            display: flex;
+            background: #ddd;
+            padding: 10px;
+        }
+
+        /* 2 direction */
+        .row {
+            flex-direction: row;
+        }
+
+        .column {
+            flex-direction: column;
+            height: 200px;
+        }
+
+        /* 3 justify */
+        .justify-center {
+            justify-content: center;
+        }
+
+        .justify-between {
+            justify-content: space-between;
+        }
+
+        .justify-around {
+            justify-content: space-around;
+        }
+
+        /* 4 align items */
+        .align-center {
+            align-items: center;
+            height: 150px;
+        }
+
+        .align-end {
+            align-items: flex-end;
+            height: 150px;
+        }
+
+        /* 5 wrap */
+        .wrap {
+            flex-wrap: wrap;
+            width: 250px;
+        }
+
+        /* 6 gap */
+        .gap {
+            gap: 20px;
+        }
+
+        /* 7 grow */
+        .grow1 {
+            flex-grow: 1;
+        }
+
+        .grow2 {
+            flex-grow: 2;
+        }
+
+        /* 8 basis */
+        .basis {
+            flex-basis: 150px;
+        }
+
+        /* 9 align self */
+        .self-end {
+            align-self: flex-end;
+            height: 120px;
+        }
+
+        /* 10 order */
+        .order1 {
+            order: 1;
+        }
+
+        .order2 {
+            order: 2;
+        }
+
+        /* navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: black;
+            color: white;
+            padding: 15px;
+        }
+
+        /* center */
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            background: #ddd;
+        }
+
+        /* cards */
+        .cards {
+            display: flex;
+            gap: 20px;
+        }
+
+        .card {
+            flex: 1;
+            border: 1px solid gray;
+            padding: 20px;
+        }
+
+        /* responsive */
+        .responsive {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .res-box {
+            flex: 1 1 250px;
+            background: #2196F3;
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Flexbox Complete Visual Practice</h1>
+
+    <!-- 1 basic -->
+    <section>
+        <h2>1. display:flex</h2>
+
+        <div class="flex">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+        </div>
+
+    </section>
+
+    <!-- 2 direction -->
+    <section>
+        <h2>2. flex-direction</h2>
+
+        <p>row</p>
+        <div class="flex row">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+        </div>
+
+        <p>column</p>
+        <div class="flex column">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+        </div>
+
+    </section>
+
+    <!-- 3 justify -->
+    <section>
+        <h2>3. justify-content</h2>
+
+        <p>center</p>
+        <div class="flex justify-center">
+            <div class="box small">1</div>
+            <div class="box small">2</div>
+            <div class="box small">3</div>
+        </div>
+
+        <p>space-between</p>
+        <div class="flex justify-between">
+            <div class="box small">1</div>
+            <div class="box small">2</div>
+            <div class="box small">3</div>
+        </div>
+
+        <p>space-around</p>
+        <div class="flex justify-around">
+            <div class="box small">1</div>
+            <div class="box small">2</div>
+            <div class="box small">3</div>
+        </div>
+
+    </section>
+
+    <!-- 4 align items -->
+    <section>
+        <h2>4. align-items</h2>
+
+        <p>center</p>
+        <div class="flex align-center">
+            <div class="box small">1</div>
+            <div class="box small">2</div>
+            <div class="box small">3</div>
+        </div>
+
+        <p>flex-end</p>
+        <div class="flex align-end">
+            <div class="box small">1</div>
+            <div class="box small">2</div>
+            <div class="box small">3</div>
+        </div>
+
+    </section>
+
+    <!-- 5 wrap -->
+    <section>
+        <h2>5. flex-wrap</h2>
+
+        <div class="flex wrap">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+        </div>
+
+    </section>
+
+    <!-- 6 gap -->
+    <section>
+        <h2>6. gap</h2>
+
+        <div class="flex gap">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+        </div>
+
+    </section>
+
+    <!-- 7 grow -->
+    <section>
+        <h2>7. flex-grow</h2>
+
+        <div class="flex">
+            <div class="box grow1">1</div>
+            <div class="box grow2">2 grows double</div>
+            <div class="box grow1">3</div>
+        </div>
+
+    </section>
+
+    <!-- 8 basis -->
+    <section>
+        <h2>8. flex-basis</h2>
+
+        <div class="flex">
+            <div class="box basis">150px</div>
+            <div class="box">auto</div>
+            <div class="box">auto</div>
+        </div>
+
+    </section>
+
+    <!-- 9 align self -->
+    <section>
+        <h2>9. align-self</h2>
+
+        <div class="flex align-center">
+            <div class="box">1</div>
+            <div class="box self-end">2 self-end</div>
+            <div class="box">3</div>
+        </div>
+
+    </section>
+
+    <!-- 10 order -->
+    <section>
+        <h2>10. order</h2>
+
+        <div class="flex">
+            <div class="box order2">1 order2</div>
+            <div class="box order1">2 order1</div>
+            <div class="box">3 default</div>
+        </div>
+
+    </section>
+
+    <!-- navbar -->
+    <section>
+        <h2>11. Navbar example</h2>
+
+        <div class="navbar">
+            <div>Logo</div>
+            <div>Home</div>
+            <div>About</div>
+            <div>Contact</div>
+        </div>
+
+    </section>
+
+    <!-- center -->
+    <section>
+        <h2>12. Perfect center</h2>
+
+        <div class="center">
+            <div class="box">Centered</div>
+        </div>
+
+    </section>
+
+    <!-- cards -->
+    <section>
+        <h2>13. Card layout</h2>
+
+        <div class="cards">
+            <div class="card">Card 1</div>
+            <div class="card">Card 2</div>
+            <div class="card">Card 3</div>
+        </div>
+
+    </section>
+
+    <!-- responsive -->
+    <section>
+        <h2>14. Responsive layout</h2>
+
+        <div class="responsive">
+            <div class="res-box">1</div>
+            <div class="res-box">2</div>
+            <div class="res-box">3</div>
+            <div class="res-box">4</div>
+        </div>
+
+        <p>Resize window to see wrapping</p>
+
+    </section>
+
+</body>
+
+</html>

@@ -1,16 +1,163 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flexbox</title>
 </head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body,
+    html {
+        height: 100%;
+        width: 100%;
+        font-family: "Arial", sans-serif;
+        
+    }
+
+    #main{
+        height: 100vh;
+        width: 100vw;
+        background-color: #fff7e8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    #box1{
+        height: 250px;
+        width: 250px;
+        background-color: rgb(234, 136, 153);
+    }
+
+    #box2{
+        height: 250px;
+        width: 250px;
+        background-color: rgb(169, 66, 81);
+    }
+
+    #box3{
+        height: 250px;
+        width: 250px;
+        background-color: rgb(107, 7, 24);
+    }
+
+    nav{
+        height: 100px;
+
+        background-color: rgb(119, 226, 163);
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        gap: 40px;
+        
+
+    }
+
+    h4{
+        /* margin-right: 7px; */
+    }
+
+    /* ------------GRID------------ */
+
+
+    #parent{
+        /* height: 100%;
+        width: 100%;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 20px;
+        padding: 50px;
+        row-gap: 10px; */
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* grid-template-rows: ; */
+        
+    }
+
+    #child1{
+        /* height: 200px;
+        width: 200px; */
+        background-color: crimson;
+        border: 3px solid white;
+        border-radius: 20px;
+
+    }
+    #child2{
+        /* height: 200px;
+        width: 200px; */
+        background-color: rgb(41, 149, 156);
+        border: 3px solid white;
+        border-radius: 20px;
+
+    }
+    #child3{
+        /* height: 200px;
+        width: 200px; */
+        border-radius: 20px;
+     
+        background-color: rgb(46, 226, 172);
+        border: 3px solid white;
+    }
+    #child4{
+        /* height: 200px;
+        width: 200px; */
+        background-color: rgb(20, 123, 220);
+        border-radius: 20px;
+     
+        border: 3px solid white;
+    }
+    
+</style>
+
 <body>
-    <div class="class">
-        <div class="circle pastel-1">2</div>
+    <div id="main">
+        <div id="box1"></div>
+        <div id="box2"></div>
+        <div id="box3"></div>
+        <div id="box2"></div>
+        <div id="box3"></div>
+        <div id="box1"></div>
     </div>
     
-    
-    
+
+    <!-- <nav>
+        <h4>Home</h4>
+        <h4>About</h4>
+        <h4>Contact</h4>
+        <h4>Gallery</h4>
+    </nav> -->
+
+
+
+    <!-- <div id="parent">
+        <div id="child1"></div>
+        <div id="child2"></div>
+        <div id="child3"></div>
+        <div id="child4"></div>
+        <div id="child1"></div>
+        <div id="child2"></div>
+        <div id="child3"></div>
+        <div id="child4"></div>
+        <div id="child2"></div>
+
+    </div> -->
 </body>
+
 </html>
