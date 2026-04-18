@@ -64,10 +64,11 @@ input[type="email"] {
 }
 
 button {
+    color: white;
     padding: 12px;
     /* padding: 0.5rem; */
     width: 100px;
-    background-color: #9e67c2f1;
+    background-color: #581783f1;
     border: none;
     border-radius: 7px;
     cursor: pointer;
@@ -75,5 +76,7 @@ button {
 }
 
 button:hover {
-    background-color: #bdb1b1;
+    background-color: #af53ecf1;
+    color: black;
 }
+
