@@ -23,12 +23,21 @@
         background-color: rgb(44, 10, 16)
     }
 
-    @media (max-width: 600px){
+    @media (min-width: 600px){
         body{
             align-items: flex-start;
         }
         #container{
             background-color: blue
+        }
+    }
+
+    @media (max-width: 600px) {
+        body{
+            align-items: center;
+        }
+        #container{
+            background-color: green
         }
     }
 
