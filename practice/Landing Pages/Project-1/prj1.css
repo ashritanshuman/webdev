@@ -133,3 +133,164 @@ img {
   right: 11%;
   font-size: 23px;
 }
+
+/* responsiveness */
+
+/* Tablet and smaller (max-width: 1024px) */
+
+@media (max-width: 1024px) {
+  #nav {
+    height: 80px;
+    padding: 5px 20px;
+  }
+
+  #nav2 h2 {
+    font-size: 18px;
+  }
+
+  #main > h1 {
+    font-size: 100px;
+  }
+
+  img {
+    height: 400px;
+    width: 280px;
+  }
+
+  #below {
+    margin-top: 500px;
+  }
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  #mainnav {
+    padding: 15px;
+  }
+
+  #nav {
+    height: auto;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 20px;
+  }
+
+  #nav1 h3 {
+    font-size: 16px;
+    padding: 4px 8px;
+  }
+
+  #nav2 h2 {
+    font-size: 16px;
+  }
+
+  #nav3 button {
+    padding: 5px 12px;
+    font-size: 14px;
+  }
+
+  #nav3 #btn2 {
+    padding: 7px 12px;
+    margin-left: 5px;
+  }
+
+  #main > h1 {
+    font-size: 60px;
+  }
+
+  img {
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+  }
+
+  #below {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 400px;
+    padding: 20px;
+  }
+
+  #text {
+    position: static;
+    left: auto;
+    text-align: center;
+  }
+
+  #text h3 {
+    font-size: 16px;
+  }
+
+  #b2 {
+    position: static;
+    right: auto;
+    font-size: 20px;
+  }
+}
+
+/* Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  #nav1 h3:first-child {
+    display: none;
+  }
+
+  #nav2 h2 {
+    font-size: 14px;
+  }
+
+  #nav3 {
+    display: flex;
+    gap: 5px;
+  }
+
+  #main > h1 {
+    font-size: 40px;
+  }
+
+  img {
+    height: 250px;
+    width: 170px;
+    border-radius: 15px;
+  }
+
+  #img1 {
+    transform: translate(-50%, -50%) rotate(25deg);
+  }
+
+  #img2 {
+    transform: translate(-50%, -50%) rotate(15deg);
+  }
+
+  #img3 {
+    transform: translate(-50%, -50%) rotate(5deg);
+  }
+
+  #below {
+    margin-top: 350px;
+  }
+
+  #text h3 {
+    font-size: 14px;
+  }
+
+  #b2 {
+    font-size: 18px;
+  }
+}
+
+/* Very small devices (max-width: 360px) */
+@media (max-width: 360px) {
+  #main > h1 {
+    font-size: 32px;
+  }
+
+  img {
+    height: 200px;
+    width: 140px;
+  }
+
+  #below {
+    margin-top: 300px;
+  }
+}
