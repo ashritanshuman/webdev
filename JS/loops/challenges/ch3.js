@@ -11,3 +11,4 @@ for (const num of numbers) {
     smallNumbers.push(num);
 }
 console.log(smallNumbers);
+
