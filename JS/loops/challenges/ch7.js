@@ -6,7 +6,7 @@ teaCollection.forEach(function(tea) {
     if (tea === "chai") {
         // break; // error
 
-        return 1;
+        return 0;
     }
 
     availableTeas.push(tea);
