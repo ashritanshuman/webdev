@@ -12,7 +12,7 @@ username.firstName = "Mr. X"; // we can change the value of the property of an o
 
 username.age = 25; // we can also add new properties to the object
 // console.log(username.firstName);
-// console.log(typeof(username));
+// console.log(typeof username);
 
 // console.log(username);
 
