@@ -40,16 +40,16 @@ console.log(countdown);
 // 3.
 
 
-/* let teaCollection = [];
-let tea;
+// let teaCollection = [];
+// let tea;
 
-do {
-  tea = prompt("enter your favourite tea: ")
+// do {
+//   tea = prompt("enter your favourite tea: ")
 
-  if (tea !== "stop") {
-    teaCollection.push(tea);
-  }
-} while (tea !== "stop"); */
+//   if (tea !== "stop") {
+//     teaCollection.push(tea);
+//   }
+// } while (tea !== "stop"); 
 
 /* types: 
 1. for loop
