@@ -9,8 +9,9 @@ for (let i = 0; i < teas.length; i++) {
     if (teas[i] === "oolong tea") {
         break;
     }
-    selectedTeas.push(teas[i]);
 
+    selectedTeas.push(teas[i]);
+    console.log("hello");
+    
 }
 console.log(selectedTeas);
-
