@@ -15,3 +15,8 @@ console.log(obj);
 
 
 let age = 19;
+
+age1 = age;
+
+age1 = 24;
+
