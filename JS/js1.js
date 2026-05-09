@@ -12,8 +12,6 @@ onj1.name = "AShrit"
 console.log(onj1);
 console.log(obj);
 
-
-
 let age = 19;
 
 age1 = age;
