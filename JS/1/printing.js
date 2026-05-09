@@ -7,5 +7,6 @@ console.error("This is an error message");
 console.count("Counter");  // Counter: 1
 console.count("Counter");  // Counter: 2
 console.time("Timer");
+console.log();
 
 console.clear
