@@ -38,8 +38,6 @@ while (j<=5) {
 console.log(countdown);
 
 // 3.
-
-
 // let teaCollection = [];
 // let tea;
 
@@ -69,8 +67,8 @@ let k = 2;
 
 for (let i = 0; i < nums.length; i++) {
   multipliednums.push(nums[i] * k);
-  // const element = nums[i];
 }
+
 console.log(multipliednums);
 
 // 5.

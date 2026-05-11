@@ -8,13 +8,11 @@ let worldCities = {
 let largeCities = {};
 
 for (const city in worldCities) {
-    if (worldCities[city] < 4500000){
 
+    if (worldCities[city] < 4500000){
         continue;
     }
-
     largeCities[city] = worldCities[city];
-
 }
 
 console.log(largeCities);

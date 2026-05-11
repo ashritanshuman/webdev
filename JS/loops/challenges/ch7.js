@@ -4,14 +4,10 @@ let availableTeas = [];
 
 teaCollection.forEach(function(tea) {
     if (tea === "chai") {
-        // break; // error
-        
-        
+        // break; // error   
         return 0;
     }
-
     availableTeas.push(tea);
-
 });
 
 console.log(availableTeas);

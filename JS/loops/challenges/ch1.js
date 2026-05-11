@@ -13,4 +13,6 @@ for (let i = 0; i < teas.length; i++) {
     selectedTeas.push(teas[i]);
     
 }
-console.log(selectedTeas);
+
+console.log(selectedTeas)
+
