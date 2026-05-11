@@ -1,4 +1,3 @@
-
 let worldCities = {
         London: 8900000,
         NewYork: 5660000,

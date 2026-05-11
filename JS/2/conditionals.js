@@ -36,7 +36,6 @@ if (typeof num === 'number') {
 
 // 'number' denotes datatype
 
-
 // === is called the strict equality operator in JavaScript.
 /* It checks:
 

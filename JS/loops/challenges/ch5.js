@@ -20,5 +20,7 @@ for (const city in citiesPopulation) {
     newCityPopulation[city] = citiesPopulation[city];
 }
 
+
 console.log(newCityPopulation)
+
 
