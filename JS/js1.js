@@ -18,3 +18,6 @@ age1 = age;
 
 age1 = 24;
 
+age2 = age1;
+
+
